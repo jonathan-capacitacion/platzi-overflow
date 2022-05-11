@@ -1,0 +1,25 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "Un sitio como StackOverflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext js,hbs",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/vision": "^6.1.0",
+    "handlebars": "^4.7.7",
+    "hapi": "^18.1.0"
+  }
+}
